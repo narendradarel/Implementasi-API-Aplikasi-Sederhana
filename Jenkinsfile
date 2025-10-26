@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Source') {
             steps {
                 echo '📦 Checking out source code...'
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/narendradarel/Implementasi-API-Aplikasi-Sederhana.git'
+                git branch: 'master', changelog: false, poll: false, url: 'https://github.com/narendradarel/Implementasi-API-Aplikasi-Sederhana.git'
             }
         }
 
