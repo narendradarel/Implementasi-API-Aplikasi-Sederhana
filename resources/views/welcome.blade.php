@@ -32,7 +32,6 @@
 <body>
     <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
         <h1 class="text-center mb-5">Belajar Implementasi Public API - Narendra</h1>
-        <h2 class="text-center mb-5"> Test Jenkins </h2>
 
         <div class="row justify-content-center">
             <!-- Card Pencarian -->
