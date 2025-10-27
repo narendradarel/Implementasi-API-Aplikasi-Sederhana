@@ -7,13 +7,12 @@ services:
       dockerfile: Dockerfile
     container_name: laravel_app
     ports:
-      - "8000:8000"
+      - "80:8000"
     volumes:
       - .:/var/www
     depends_on:
       - db
     environment:
-    
       DB_CONNECTION: "mysql"
       DB_HOST: "db"
       DB_PORT: "3306"
@@ -46,3 +45,5 @@ services:
 
 volumes:
   db_data:
+
+
